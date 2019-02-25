@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box; 
+	margin: 0;
+}
+html, body{
+	min-height: 100vh; 
+}
+body{
+	margin: 0; 
+	font-family: signpainter;
+}
+.main-title{
+	position: fixed; 
+	bottom: 50px;
+	padding: 30px 30px; 
+	right: 10px;
+	z-index: 10; 
+	color: #FFF; 
+}
+.main-title2{
+	position: fixed; 
+	bottom: 50px;
+	padding: 30px 30px; 
+	right: 10px;
+	z-index: 30; 
+	color: #FFF; 
+}
+.enlarge{
+font-size: 80px; 
+color: #FFF; 
+margin-bottom: 40px; 
+background-color: #fff; 
+} 
+
+.enlarge2{
+font-size: 80px; 
+color: #FFF; 
+margin-bottom: 40px; 
+} 
+.bg--light{ 
+	background-color: #ff7549; 
+
+}
+.bg--dark{
+	background-color:#49b8ff;
+
+}
+h2{
+	margin: 0;
+}
+
+h2.welcome{
+	position: relative; 
+	text-align: center; 
+	top: 150px; 
+	font-size: 150px; 
+	color: #FFF; 
+}
+.btn{
+	margin-top: 250px; 
+	border: none; 
+	background-color: inherit; 
+	padding: 14px 18px; 
+	font-family: signpainter;
+	font-size: 60px; 
+	cursor: pointer;
+	display: inline-block;
+}
+.wrapper{
+	text-align: center; 
+}
+
+
+/*savoury*/ 
+.savoury{
+	color: #fff; 
+}
+/*sweet*/ 
+.sweet{
+	margin-left: 20px; 
+	color: #fff; 
+}
+
+.savoury:hover{
+	background-color:#ff7549; 
+	color: white;
+}
+.sweet:hover{
+	background-color: #49b8ff;
+	color: white;
+}
+a{
+	text-decoration: none; 
+	color: white; 
+}
+
+h2#title.main-title.enlarge{
+
+}
