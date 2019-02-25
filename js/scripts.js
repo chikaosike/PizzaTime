@@ -14,26 +14,18 @@ function init(){
 	var section5 = document.getElementById("section5"); 
 	var section6 = document.getElementById("section6"); 
 	var section7 = document.getElementById("section7");
-	var section8 = document.getElementById("section8");  
-	var newImg = document.createElement("IMG"); 
+	var section8 = document.getElementById("section8");  		
+	var orange=true; 
+	var blue=false; 
 
-
- 	// var imgArray = new Array(); 
-
- 	// imgArray[0] = new Image(); 
- 	// imgArray[0].src = 'imgs/cheese.png'; 
-
- 		// document.allowDrop =function(ev){
- 		// ev.preventDefault(); 
- 	// }
-
+if (orange){
  	title.className = "main-title enlarge";
 	title.style.backgroundColor = "#ff7549"; 
 	title.innerHTML ="<em>Hungry?</em>";  
-
 	document.onscroll = function(){ //event 2 
 		var scrollPos = window.scrollY; 
 		var wHeight = window.innerHeight; 
+		blue=false; 
 		console.log(window.scrollY); 
 		if (scrollPos >=10 && scrollPos <=500){
 			title.innerHTML = "let's start with some plain cheese"; 
@@ -51,7 +43,8 @@ function init(){
 	title.innerHTML = "  "; 	
 		}
 	}
-
+}
+if(blue){
 	title2.className = "main-title2 enlarge2";
 	title2.style.backgroundColor = "#49b8ff";
 	title2.innerHTML ="<em>Hungry?</em>";  
@@ -59,6 +52,8 @@ function init(){
 	document.onscroll = function(){ //event 2 
 		var scrollPos = window.scrollY; 
 		var wHeight = window.innerHeight; 
+		blue=true; 
+		orange=false; 
 		console.log(window.scrollY); 
 		if (scrollPos >=10 && scrollPos <=500){
 			title2.innerHTML = "tasty big cookie"; 
@@ -76,6 +71,7 @@ function init(){
 	title2.innerHTML = "  "; 	
 		}
 	}
+}
 
 	// document.getElementById("section3").appendChild(newImg); 
 	// document.onscroll = function(){ //event 2 
