@@ -15,10 +15,10 @@ function init(){
 	var section6 = document.getElementById("section6"); 
 	var section7 = document.getElementById("section7");
 	var section8 = document.getElementById("section8");  		
-	var orange=true; 
+	var orange = true;
 	var blue=false; 
 
-if (orange){
+		if (orange ==true){
  	title.className = "main-title enlarge";
 	title.style.backgroundColor = "#ff7549"; 
 	title.innerHTML ="<em>Hungry?</em>";  
@@ -44,7 +44,7 @@ if (orange){
 		}
 	}
 }
-if(blue){
+if(blue==true){
 	title2.className = "main-title2 enlarge2";
 	title2.style.backgroundColor = "#49b8ff";
 	title2.innerHTML ="<em>Hungry?</em>";  
@@ -73,61 +73,5 @@ if(blue){
 	}
 }
 
-	// document.getElementById("section3").appendChild(newImg); 
-	// document.onscroll = function(){ //event 2 
-	// 	var scrollPos = window.scrollY; 
-	// 	var wHeight = window.innerHeight; 
-	// 	//var imageOn = false; 
-	// 	console.log(window.scrollY); 
-	// 	if (scrollPos >=50 && scrollPos < 100){
-	// 		newImg.setAttribute("src", "imgs/A_pepperoni.png"); 
-	// 		title.innerHTML = "welcome"; 	
 
-	// 	} else if(scrollPos >= 100 && scrollPos < 600){
-
-	// 		title.innerHTML = "pizza " + name;	
-	// 		// <img src="imgs/A_pepperoni.png">
-
-	// 		// if (!imageOn){
-	// 		// var newImg = document.createElement("IMG"); 
-	// 		// newImg.setAttribute("src", "imgs/Cheese.png"); 
-	// 		// newImg.style.width= "10%"; 
-	// 		// section3.appendChild(newImg); 
-	// 		// }
-
-	// 	}else if(scrollPos >= 600 && scrollPos < 900){
-	// 		title.innerHTML = "welcome " + name + " to my site";	
-	// 	}
-		// else {
-		// 	title.innerHTML ="<em>Lettuce make pizza</em>";
-		// }
-	
-	//CLICK EVENT LISTENERS TO REPORT SECTION
-
-	// var section1 = document.getElementById("section1"); 
-	// var section2 = document.getElementById("section2"); 
-	// var section3 = document.getElementById("section3"); 
-	// var section4 = document.getElementById("section4");  
-	// var section5 = document.getElementById("section5"); 
-	// var section6 = document.getElementById("section6"); 
-	// var section6 = document.getElementById("section7"); 
-
-	// function reportSection(section, message){
-	// 	section.innerHTML=message; //'this' is representative of the object that invoked the function (section 1 is the object invoking the function)
- //  	}
-	// // section1.addEventListener("click", function(){
-	// // 	reportSection(section1, "let's start with some plain cheese");
-	// // 		var newImg = document.createElement("IMG"); 
-	// // 		newImg.setAttribute("src", "imgs/Cheese.png"); 
-	// // 		newImg.style.width= "100%"; 
-	// // });  
-	// section2.addEventListener("click", function(){
-	// 	reportSection(section2, "let's start with some plain cheese");
-	// }); 
-	// section3.addEventListener("click", function(){
-	// 	reportSection(section3, "tres leches");
-	// }); 
-	// section4.addEventListener("click", function(){
-	// 	reportSection(section4, "four loko");
-	// }); 
 }
